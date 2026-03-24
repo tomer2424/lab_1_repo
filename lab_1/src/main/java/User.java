@@ -43,7 +43,7 @@ public class User {
     // Ensure password contains letters, digits, and special characters
     private boolean isValidPassword(String password)
     {
-        return password.matches("^(?=.*[a-zA-Z])(?=.*\\d)(?=.*[+!%@#^]).+$");
+        return password.matches("^(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!@#$%^&*()_+-=]).+$");
     }
 
     public String getUsername() {
