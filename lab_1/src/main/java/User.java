@@ -45,7 +45,7 @@ public class User {
     {
         return password.matches("^(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!@#$%^&*()_+-=]).+$");
     }
-
+    
     public String getUsername() {
         return userName;
     }
