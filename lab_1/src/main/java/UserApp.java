@@ -20,11 +20,6 @@ public class UserApp {
             {
                 String line = reader.nextLine().trim();
                 String[] parts = line.split("\\s+");
-                /* if(parts.length != 2)
-                {
-                    System.out.println("Please enter a valid Email as username");
-                    continue;
-                }  */
 
                 String username = parts[0];
                 String password = parts[1];
