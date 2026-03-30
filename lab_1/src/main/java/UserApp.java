@@ -19,7 +19,7 @@ public class UserApp {
             while (reader.hasNextLine())
             {
                 String line = reader.nextLine().trim();
-                String[] parts = line.trim().split("\\s+");
+                String[] parts = line.split("\\s+");
 
                 String username = parts[0];
                 String password = parts[1];
