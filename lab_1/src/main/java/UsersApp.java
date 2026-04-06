@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.io.PrintWriter;
 
-public class UserApp {
+public class UsersApp {
     public static void main(String[] args) {
         // creating a new array list and opening a file
         ArrayList<User> arr = new ArrayList<>();

@@ -5,7 +5,7 @@ public class User {
     private String userName;
     private String password;
 
-    User(String userName, String password)
+    public User(String userName, String password)
     {
         // Validate username length and email format
         if (userName.length() > 50)
